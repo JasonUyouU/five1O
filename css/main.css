@@ -1,0 +1,198 @@
+/*Navigation bar*/
+.navbar {
+	height: 90px;
+	background-color: #050505;
+	border-radius: 0;
+	margin:0;
+	text-align: center;
+	position: fixed;
+	width:100%;
+	z-index: 1;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: lighter;
+}
+.navbar > div > ul {
+	padding-left: 0;
+}
+/*list items on the navbar*/
+.navbar > div > ul > li {
+	display: inline-block;
+	padding: 0px 15px;
+}
+/*Five10 heading*/
+.navbar > div > ul > li > h2 {
+	font-size: 50px;
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: lighter;
+	letter-spacing: 24px;
+}
+/*Link lists on the navbar*/
+.navbar > div > ul > li > a {
+	color:white;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: lighter;
+	letter-spacing: 7px;
+
+}
+.navbar > div > ul > li > a:hover {
+	color: blue;
+}
+/*Carousel*/
+.carousel {
+	padding-top: 90px;
+	z-index: 0;
+	background-color: #050505;
+}
+.carousel-indicators {
+	visibility: hidden;
+}
+.carousel-caption {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: lighter;
+	letter-spacing: 10px;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+	height: 650px;
+    width: 100%;
+}
+.carousel-inner > .five10 > img, .carousel-inner > .five10 > a > img {
+	width: 45%;
+	margin: 0 auto;
+}
+/*anchor to makesure the Navbar doesn't overlap the sections*/
+.anchor {
+	display:block;
+	height:90px;
+	margin-top: -90px;
+	visibility: hidden;
+}
+/*About Us Section*/
+.about-us {
+	height: 300px;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: 5px;
+}
+.about-us p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	padding: 0 100px;
+	text-align: left;
+	letter-spacing: 2px;
+}
+/*Artists Section*/
+.artists {
+	height: 520px;
+	text-align: center;
+	background-color: #B8B8B8;
+	color:black;
+	background-image: url("../img/screen.png");
+}
+.artists h1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: 5px;
+}
+
+.row1 .col-md-6{
+	padding-top: 10px;
+}
+.row2 .col-md-6{
+	padding-top: 30px;
+}
+.artists p {
+	padding-top: 8px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bolder;
+	font-size: 18px;
+	letter-spacing: 10px;
+	display: inline-block;
+}
+.djname {
+	font-size: 30px;
+}
+.artists p img {
+	height: 1.2em;
+	padding: 0 3px;
+}
+.profile {
+	height:110px;
+	width: 110px;
+	border-radius: 60px;
+	border: solid 2px white;
+}
+.fa {
+	color:black;
+	font-size: 20px;
+	padding:0 5px;
+}
+/*Events Section*/
+.events {
+	height: 500px;
+	background-color: #F8F8FA;
+}
+.events h1{
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: 5px;
+}
+.events .row1 {
+	padding: 30px 0;
+}
+.box {
+	height: 325px;
+	width: 200px;
+	background-color: #FFF;
+	border-top: 0.5px solid #DFDFE1;
+	border-bottom: 0.5px solid #DFDFE1;
+}
+.box p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: 1px;
+	padding-left: 5px;
+	font-size: 15px;
+	font-weight: bolder;
+}
+.box hr {
+	margin-top: -3px;
+}
+.second {
+	margin-top: -13px;
+}
+.events img {
+	height: 200px;
+	width: 200px;
+}
+/*Footer*/
+footer 	{
+	height: 150px;
+	background-color: #050505;
+	color: white;
+	font-size: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: 3px;
+}
+footer p {
+	padding-top: 4%;
+	padding-left: 80px;
+	position: absolute;
+}
+footer ul {
+	float: right;
+	list-style: none;
+	padding-top: 4%;
+	padding-right: 80px;
+
+}
+footer ul li {
+	display: inline-block;
+	padding: 0 15px;
+}
+footer ul li a {
+	text-decoration: none;
+}
+footer .fa {
+	color: white;
+	font-size: 30px;
+}

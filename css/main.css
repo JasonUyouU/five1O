@@ -1,3 +1,27 @@
+/*for responsive design*/
+@media (max-width: 992px) {
+	body {
+		min-width: 992px;
+	}
+	.navbar {
+		min-width: 992px;
+	}
+	section.artists {
+		height: 320px;
+	}
+	.artists div {
+		display: inline-block;
+	}
+	.events div.container {
+		min-width: 992px;
+	}
+	.events div {
+		display: inline-block;
+	}
+}
+.img-responsive {
+	display: inline-block !important;
+}
 /*Navigation bar*/
 .navbar {
 	height: 90px;
@@ -94,19 +118,11 @@
 	font-family: 'Open Sans Condensed', sans-serif;
 	letter-spacing: 5px;
 }
-
-.row1 .col-md-6{
-	padding-top: 10px;
-}
-.row2 .col-md-6{
-	padding-top: 30px;
-}
 .artists p {
 	padding-top: 8px;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight: bolder;
 	font-size: 18px;
-	letter-spacing: 10px;
 	display: inline-block;
 }
 .djname {
@@ -121,11 +137,6 @@
 	width: 110px;
 	border-radius: 60px;
 	border: solid 2px white;
-}
-.fa {
-	color:black;
-	font-size: 20px;
-	padding:0 5px;
 }
 /*Events Section*/
 .events {

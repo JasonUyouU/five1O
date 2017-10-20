@@ -6,6 +6,9 @@
 	.navbar {
 		min-width: 992px;
 	}
+	section.media {
+		display: none;
+	}
 	section.artists {
 		height: 320px;
 	}
@@ -18,9 +21,14 @@
 	.events div {
 		display: inline-block;
 	}
-}
-.img-responsive {
-	display: inline-block !important;
+	.events .box {
+		height: 325px !important;
+		width: 200px !important;
+	}
+	.events img {
+		height: 200px !important;
+		width: 200px !important;
+	}
 }
 /*Navigation bar*/
 .navbar {
@@ -62,7 +70,8 @@
 
 }
 .navbar > div > ul > li > a:hover {
-	color: blue;
+	color: #0092cc;
+	transition: 0.5s;
 }
 /*Carousel*/
 .carousel {
@@ -79,7 +88,7 @@
 	letter-spacing: 10px;
 }
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-	height: 650px;
+	height: 750px;
     width: 100%;
 }
 .carousel-inner > .five10 > img, .carousel-inner > .five10 > a > img {
@@ -97,25 +106,35 @@
 .about-us {
 	height: 300px;
 	text-align: center;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Permanent Marker', cursive;
 	letter-spacing: 5px;
 }
 .about-us p {
 	font-family: 'Open Sans Condensed', sans-serif;
 	padding: 0 100px;
 	text-align: left;
-	letter-spacing: 2px;
+	letter-spacing: 0px;
+	font-size: 20px;
+}
+/*Media Section*/
+.media {
+	height: 1100px;
+}
+.media img {
+	height: 275px;
+	width: 250px;
+	margin-top: 40px;
 }
 /*Artists Section*/
 .artists {
-	height: 520px;
+	height: 580px;
 	text-align: center;
 	background-color: #B8B8B8;
 	color:black;
 	background-image: url("../img/screen.png");
 }
 .artists h1 {
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Permanent Marker', cursive;
 	letter-spacing: 5px;
 }
 .artists p {
@@ -131,11 +150,13 @@
 .artists p img {
 	height: 1.2em;
 	padding: 0 3px;
+	margin-top: -20px;
 }
 .profile {
-	height:110px;
-	width: 110px;
-	border-radius: 60px;
+	margin-top: 20px;
+	height:140px;
+	width: 140px;
+	border-radius: 50%;
 	border: solid 2px white;
 }
 /*Events Section*/
@@ -145,8 +166,9 @@
 }
 .events h1{
 	text-align: center;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Permanent Marker', cursive;
 	letter-spacing: 5px;
+
 }
 .events .row1 {
 	padding: 30px 0;
@@ -157,6 +179,7 @@
 	background-color: #FFF;
 	border-top: 0.5px solid #DFDFE1;
 	border-bottom: 0.5px solid #DFDFE1;
+	margin: 0 auto;
 }
 .box p {
 	font-family: 'Open Sans Condensed', sans-serif;
@@ -206,4 +229,14 @@ footer ul li a {
 footer .fa {
 	color: white;
 	font-size: 30px;
+}
+/*For animation to begin when scrolled to*/
+.col-md-3 {
+	opacity: 0;
+}
+.col-md-4 {
+	opacity: 0;
+}
+.visible {
+	opacity: 1 !important;
 }

@@ -1,5 +1,5 @@
 /*for responsive design*/
-@media (max-width: 992px) {
+/*@media (max-width: 992px) {
 	body {
 		min-width: 992px;
 	}
@@ -29,49 +29,41 @@
 		height: 200px !important;
 		width: 200px !important;
 	}
-}
+}*/
 /*Navigation bar*/
 .navbar {
 	height: 90px;
 	background-color: #050505;
 	border-radius: 0;
 	margin:0;
-	text-align: center;
 	position: fixed;
 	width:100%;
-	z-index: 1;
+	z-index: 5;
+	text-align: center;
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-weight: lighter;
+	font-weight: bolder;
+	padding: 0 !important;
 }
-.navbar > div > ul {
-	padding-left: 0;
-}
-/*list items on the navbar*/
 .navbar > div > ul > li {
-	display: inline-block;
-	padding: 0px 15px;
+	padding: 15px 15px 0 15px;
+}
+.navbar-collapse {
+	background-color: #050505;
 }
 /*Five10 heading*/
-.navbar > div > ul > li > h2 {
+.title {
 	font-size: 50px;
-	color: white;
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-weight: lighter;
+	color: #fff;
+	font-weight: bolder;
 	letter-spacing: 24px;
+	padding-left: 20px;
 }
-/*Link lists on the navbar*/
 .navbar > div > ul > li > a {
 	color:white;
-	text-decoration: none;
 	font-size: 20px;
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-weight: lighter;
+	font-weight: bolder;
 	letter-spacing: 7px;
 
-}
-.navbar > div > ul > li > a:hover {
-	color: #0092cc;
-	transition: 0.5s;
 }
 /*Carousel*/
 .carousel {

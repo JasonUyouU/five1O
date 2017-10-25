@@ -5,25 +5,63 @@
 	<meta name="author" content="Jason You">
 	<meta name="description" content="Website for my DJ friends">
 	<meta name="viewport" content="width=device-width, inital-scale=1.0">
-	<title>Berkeley DJs</title>
+	<title>FIVE1&Oslash</title>
 	<link rel="shortcut icon" type="text/css" href="img/favicon.png">
-	<!--  -->
+	<!-- Fonts Used -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
 
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+<!-- 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+ -->
 	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<!-- 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+	<!-- Font Awesome -->
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" type="text/css">
-	<link rel="stylesheet" type="text/css" href="css/animate.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Material Design Bootstarp -->
+	<link rel="stylesheet" href="css/mdb.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+		<nav class="navbar navbar-expand-lg navbar-dark">
+		    <!-- Collapse button -->
+		    <button class="navbar-toggler px-5" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+		        aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+		    <!-- Collapsible content -->
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+		        <!-- Links -->
+		        <ul class="navbar-nav m-auto pl-3">
+		            <li class="nav-item">
+		                <a class="nav-link" href="#aboutId">ABOUT <span class="sr-only">(current)</span></a>
+		            </li>
+		            <li class="nav-item">
+		                <a class="nav-link" href="#mediaId">MEDIA</a>
+		            </li>
+		    		<div class="hidden-xs collapse navbar-collapse">     
+			       		<li class="nav-item">
+			                <h2 class="title">FIVE1&Oslash</h2>
+			            </li>
+		   			 </div>	           
+		            <li class="nav-item">
+		                <a class="nav-link" href="#artistsId">ARTISTS</a>
+		            </li>	            
+		            <li class="nav-item">
+		                <a class="nav-link" href="#eventsId">EVENTS</a>
+		            </li>
+		        </ul>
+		    </div>
+		</nav>		
+	<!--Navbar-->
+
+	<!--/.Navbar-->
 	<!-- Navigation Bar -->
-	<nav class="navbar">
+<!-- 	<nav class="navbar">
 		<div>
 			<ul>
 				<li class="animated bounceInLeft"><a href="#aboutId">ABOUT US</a></li>
@@ -34,7 +72,7 @@
 			</ul>
 		</div>
 	
-	</nav>
+	</nav> -->
 	<!-- Carousel -->
 	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 	  <!-- Indicators (the small circles near the bottom of the carousel) -->
@@ -107,41 +145,47 @@
 	<span class="anchor" id="mediaId"></span>
 	<section class= "media">
 		<div class="container">
-			<div class="col-md-3 media1">
-				<img src="img/media1.png">			
-			</div>			
-			<div class="col-md-3 media2">
-				<img src="img/media2.png">			
-			</div>			
-			<div class="col-md-3 media3">
-				<img src="img/media3.png">			
-			</div>			
-			<div class="col-md-3 media4">
-				<img src="img/media4.png">			
-			</div>			
-			<div class="col-md-3 media5">
-				<img src="img/media5.png">			
-			</div>			
-			<div class="col-md-3 media6">
-				<img src="img/media6.png">			
-			</div>			
-			<div class="col-md-3 media7">
-				<img src="img/media7.png">			
-			</div>			
-			<div class="col-md-3 media8">
-				<img src="img/media8.png">			
-			</div>			
-			<div class="col-md-3 media9">
-				<img src="img/media9.png">			
-			</div>			
-			<div class="col-md-3 media10">
-				<img src="img/media10.png">			
-			</div>			
-			<div class="col-md-3 media11">
-				<img src="img/media11.png">			
-			</div>			
-			<div class="col-md-3 media12">
-				<img src="img/media12.png">			
+			<div class="row">
+				<div class="col-md-3 media1">
+					<img src="img/media1.png">			
+				</div>			
+				<div class="col-md-3 media2">
+					<img src="img/media2.png">			
+				</div>			
+				<div class="col-md-3 media3">
+					<img src="img/media3.png">			
+				</div>			
+				<div class="col-md-3 media4">
+					<img src="img/media4.png">			
+				</div>		
+			</div>
+			<div class="row">
+				<div class="col-md-3 media5">
+					<img src="img/media5.png">			
+				</div>			
+				<div class="col-md-3 media6">
+					<img src="img/media6.png">			
+				</div>			
+				<div class="col-md-3 media7">
+					<img src="img/media7.png">			
+				</div>			
+				<div class="col-md-3 media8">
+					<img src="img/media8.png">			
+				</div>			
+			</div>
+			<div class="row">
+				<div class="col-md-3 media9">
+					<img src="img/media9.png">			
+				</div>			
+				<div class="col-md-3 media10">
+					<img src="img/media10.png">			
+				</div>			
+				<div class="col-md-3 media11">
+					<img src="img/media11.png">			
+				</div>			
+				<div class="col-md-3 media12">
+					<img src="img/media12.png">			
+				</div>				
 			</div>
 		</div>
 	</section>
@@ -253,7 +297,12 @@
 	<!-- Jquery Script -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+	<!-- Bootstrap core JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- MDB core JavaScript -->
+	<script src="js/mdb.min.js"></script>
+	<!-- Waypoint JavaScript -->
 	<script src="js/jquery.waypoints.min.js"></script>
 	<script src="js/main.js"></script>
 </body>

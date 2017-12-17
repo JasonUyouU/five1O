@@ -51,5 +51,16 @@ $med9.waypoint(function() {
 	$med9.addClass('visible animated flipInX');
 	$med10.addClass('visible animated rotateInUpRight');
 	$med11.addClass('visible animated rotateInUpLeft');
-	$med12.addClass('visible animated jackInTheBox');	
+	$med12.addClass('visible animated jackInTheBox');
 }, { offset: '80%'});
+
+if ($(window).width() < 992) {
+	$("#hide").addClass("collapse navbar-collapse")
+};
+$(window).resize(function() {
+	if ($(window).width() < 992) {
+		$("#hide").addClass("collapse navbar-collapse")
+	} else {
+		$("#hide").removeClass("collapse navbar-collapse")
+	}
+});
